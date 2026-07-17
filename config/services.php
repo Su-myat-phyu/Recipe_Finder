@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'spoonacular' => [
+        'key' => env('SPOONACULAR_API_KEY'),
+        'base_url' => env('SPOONACULAR_BASE_URL', 'https://api.spoonacular.com'),
+        'timeout' => env('SPOONACULAR_TIMEOUT', 12),
+    ],
+
 ];
